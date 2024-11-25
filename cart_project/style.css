@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9edde;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #a001ab;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 0 20px;
+    list-style: none;
+    font-size: 18px;
+    color: #f9edde;
+    font: 20px;
+    letter-spacing: 0.5px;
+}
+
+i.fa-solid{
+    color: #f9edde;
+    font-size: 20px;
+}
+
+.logo a{
+    color: #f9edde;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.logo a:hover{
+    color: #fff;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #f9edde;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+    /* color: #f9edde; */
+}
+
+.container{
+    width: 80%;
+    margin: 15px auto;
+}
+
+.row{
+    display: flex;
+    /* gap: 10px; */
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.row .card-area{
+    flex-basis: 33%;
+    margin-top: 10px;
+}
+
+.card{
+    width: 60%;
+    /* height: 250px; */
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 0 5px grey;
+}
+
+.card:hover img{
+    scale: 1.2;
+}
+
+.card .item-image{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid grey;
+    overflow: hidden;
+}
+
+.item-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item-desc{
+    padding: 5px 15px;
+}
+
+.item-desc h3{
+    text-align: center;
+    color: #58035e;
+}
+
+.btns{
+    text-align: center;
+}
+
+button{
+    padding: 5px 5px;
+    width: 20px;
+    border: 1px solid grey;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+#cart-link{
+    text-decoration: none;
+    color: #f9edde;
+}
+
+#cart-link #power{
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    left: 2px;
+    font-weight: 600;
+    /* color: rgb(250, 6, 6); */
+    /* text-shadow: 0.1px 0.5px #f9edde; */
+    font-size: 16px;
+    /* height: 10px; */
+}
+
+table, th, td{
+    border: 1px solid grey;
+    padding: 5px 10px;
+    /* width: 100px; */
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.my-3{
+    margin: 15px 0;
+}
+
+.addBtn{
+    background-color: #a001ab;
+    color: #f9edde;
+    border: 1px solid grey;
+    width: 80px;
+    margin: 0 5px;
+    padding: 5px 0;
+}
+
+.addBtn:hover{
+    background-color: #58035e;
+}
